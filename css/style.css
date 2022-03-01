@@ -3,38 +3,68 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* UTILITY */
 
+/* contenitori */
+.container{
+    width: 70%;
+    margin:0 auto;
+    background-color: #ffffff;
+    margin-bottom: 2px;
+    padding:10px;
+}
+
+.container-2{
+    width: 86%;
+    margin:0 auto;
+}
 
 /* HEADER */
 header #logo-img{
-
+    
 }
 
 /* riga header */
 .header-row{
-    height: 100px;
-    line-height: 100px;
+    height: 70px;
 }
 
 /* testo-logo */
 header #logo-text{
     display: inline-block;
     font-size: 34px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
 }
 
 /* MAIN */
 main{
-    background-color: lightgrey;
+    background-color: #ebebeb;
+    padding-top: 40px;
     padding-bottom: 15px;
 
 }
-.container{
-    width: 70%;
-    margin:0 auto;
-    background-color: white;
+
+
+/* nav con bottoni */
+
+.square{
+    width: 6em;
+    height: 2em;
+    border-radius: 7px;
+}
+
+nav .task{
+    color: white;
+    background-color: #62b6ff;
+    border: none;
+}
+
+nav .section{
+    color: lightgrey;
+    border-color: lightgrey;
+    background-color: #ffffff;
+
 }
