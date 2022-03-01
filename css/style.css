@@ -101,6 +101,24 @@ ul{
     list-style: none;
 }
 
+.check-cross-circle{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.red-circle{
+    color: red;
+    border: 1px solid red;
+}
+
+.green-circle{
+    color: green;
+    border: 1px solid green;
+}
+
 /* TAG COLORATI */
 .tag{
     width: 5em;
