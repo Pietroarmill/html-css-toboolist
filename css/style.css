@@ -1,0 +1,40 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITY */
+
+
+/* HEADER */
+header #logo-img{
+
+}
+
+/* riga header */
+.header-row{
+    height: 100px;
+    line-height: 100px;
+}
+
+/* testo-logo */
+header #logo-text{
+    display: inline-block;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+/* MAIN */
+main{
+    background-color: lightgrey;
+    padding-bottom: 15px;
+
+}
+.container{
+    width: 70%;
+    margin:0 auto;
+    background-color: white;
+}
