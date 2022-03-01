@@ -44,13 +44,20 @@
 }
 
 /* HEADER */
-header #logo-img{
-    
+header #logo-img {
+    vertical-align: middle;
 }
+
+header #logo-text {
+    vertical-align: middle;
+ }
 
 /* riga header */
 .header-row{
-    height: 70px;
+    height: 60px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /* testo-logo */
@@ -121,7 +128,7 @@ ul{
 
 /* TAG COLORATI */
 .tag{
-    width: 5em;
+    width: 6em;
     height: 2em;
     color: white;
     font-size: .7em;
@@ -137,13 +144,16 @@ main li .purple{
 }
 main li .green{
     background-color: #4eb895;
+    width: 6.5em;
 }
 main li .orange{
     background-color: #fcb14f;
+    width: 5em;
 }
 main li .pink{
     background-color: #f04ce2;
 }
 main li .lightgreen{
     background-color: #6db830;
+    width: 5em;
 }
